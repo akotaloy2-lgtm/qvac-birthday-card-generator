@@ -23,6 +23,7 @@ function looksUnusable(text) {
 const FALLBACK = (v) => `Happy birthday to someone who's always ${v} — hope your day is as great as you make the office.`;
 
 export async function generate(modelId, input) {
+  input = input.trim().replace(/\s+/g, " ");
   const run = completion({
     modelId,
     history: [

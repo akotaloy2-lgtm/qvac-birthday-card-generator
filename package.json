@@ -1,0 +1,25 @@
+{
+  "name": "qvac-fake-birthday-card-message-for-a-coworker-generator",
+  "version": "1.0.0",
+  "description": "Type a coworker's trait and an on-device AI writes a birthday card message for them, with a deterministic warmth meter.",
+  "type": "module",
+  "main": "src/gui.js",
+  "scripts": {
+    "start": "node src/gui.js",
+    "gui": "node src/gui.js"
+  },
+  "keywords": [
+    "qvac",
+    "on-device-ai",
+    "fun",
+    "llm",
+    "offline-ai"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@qvac/sdk": "^0.19.0"
+  },
+  "engines": {
+    "node": ">=22.17"
+  }
+}

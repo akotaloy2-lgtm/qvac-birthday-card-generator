@@ -13,7 +13,7 @@ Then open http://localhost:29462
 
 ## QVAC SDK version
 
-`@qvac/sdk` ^0.19.0 (see `package.json`).
+Uses `@qvac/sdk` 0.19.1 with on-device `loadModel()` and `completion()` inference.
 
 ## How it works
 
